@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: providers,
       child: MaterialApp(
-        title: 'Flutter Firebase',
+        title: 'To do list',
         theme: CustomTheme.themeData,
         routes: AppRoutes.routes,
         initialRoute: AppRoutes.home,
